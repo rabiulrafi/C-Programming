@@ -1,0 +1,121 @@
+1. Print the simple pattern 
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *
+    * * * * *
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Print the half pyramid
+n=4
+    *
+    **
+    ***
+    ****
+
+
+
+
+
+
+
+
+
+
+3. Print the number half pyramid
+
+1 
+1 2
+1 2 3
+1 2 3 4
+
+
+
+
+
+
+
+
+
+4. Print the inverted number half pyramid
+1 2 3 4 5 
+1 2 3 4
+1 2 3
+1 2
+1
+
+
+
+
+
+
+
+5. Print the floyd's triangle
+
+1 
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+
+
+
+
+6.Print the invert half pyramid
+****
+***
+**
+*
+
+
+
+
+7. 0-1 triangle
+
+1
+01
+101
+0101
+10101
+
+
+
+
+8. print the holo rectangle
+    *****
+    *   *
+    *   *
+    *****
+
+
+
+
+
+
+    
+9. Invert pyramid 180 degree rotation
+   *
+  **
+ ***
+****
+
+10.
+      *
+     ***
+    *****
+   *******
+  *********
+ ***********
+*************

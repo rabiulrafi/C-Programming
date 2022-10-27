@@ -1,0 +1,24 @@
+1. C Program Number Of Alphabets, Digits & Special Character In String.
+    Enter the string:STEC LOVERS1
+    Alphabets = 10
+    Digits = 1
+    Space = 1
+    Special characters = 0
+
+    
+
+2. C Program Number Of Vowels and Consonants In String.
+    Enter the string: STEC LOVERS1
+    Vowels: 3
+    Consonants: 7       
+
+3. Counting of repeted Alphabet letters
+   Enter a string: We are One 
+    Enter a character to find its frequency: e
+    Frequency of e = 3
+
+4. C program to check whether a string is palindrome or not
+    Enter the string: ADA
+    Output: string is palindrome
+    Enter the string: 123
+    Output: string is not palindrome
