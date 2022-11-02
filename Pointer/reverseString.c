@@ -19,7 +19,7 @@ void reverseString(char* str)
 }
 int main()
 {
-	char str[100] = "GeeksForGeeks";
+	char str[100] = "STEC LOVER";
 	printf("Enter a string: %s\n", str);
 	reverseString(str);
 	printf("Reverse of the string: %s\n", str);
