@@ -1,14 +1,19 @@
-struct Car {
-  char brand[50];
-  char model[50];
-  int year;
-}car1;
-
-int main() {
-   car1 = {"BMW", "X5", 1999};
-
-  printf("%s %s %d\n", car1.brand, car1.model, car1.year);
-  
-  printf("%d",sizeof(car1));
-  return 0;
+#include <stdio.h>
+#include <string.h>
+ 
+typedef struct {
+    double price;
+    char make[50];
+    }car_t;
+ 
+int main()
+{
+    car_t newcar;
+    printf("Input make of car: ");
+    fgets(newcar.make, 50, stdin);
+    printf("\nInput price of car: ");
+    scanf("%lf", &newcar.price);
+    printf("The make is: %s", newcar.make);
+    printf("The price is: $%lf", newcar.price);
+    return 0;
 }

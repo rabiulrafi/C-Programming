@@ -1,0 +1,1 @@
+//memory allocated using malloc
