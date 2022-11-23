@@ -10,6 +10,7 @@ int main()
          * fPtrPrime;
     int num, success;
     fPtrIn   = fopen("numbers.txt", "r");
+
     fPtrEven = fopen("even-numbers.txt" , "w");
     fPtrOdd  = fopen("odd-numbers.txt"  , "w");
     fPtrPrime= fopen("prime-numbers.txt", "w");
@@ -22,7 +23,6 @@ int main()
     printf("File opened successfully. Reading integers from file. \n\n");
     while (fscanf(fPtrIn, "%d", &num) != -1)
     {
-
         if (isEven(num))
             fprintf(fPtrEven, "%d\n", num);
         else
