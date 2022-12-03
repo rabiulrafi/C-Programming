@@ -1,5 +1,1 @@
-    // if (characters > 0)
-    // {
-    //     words++;
-    //     lines++;
-    // }
+    // open the current input file

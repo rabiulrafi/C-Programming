@@ -2,8 +2,7 @@
 #include <conio.h>  
 #define NUMBER 0  
 void main() {  
-#if (NUMBER==0)  
-printf("Value of Number is: %d",NUMBER);  
-#endif         
-getch();  
+    for(int i=0;i<256;i++){
+        printf("%c\n",i);
+    }
 }
