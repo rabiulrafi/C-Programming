@@ -1,11 +1,9 @@
 #include <stdio.h>
 int main() {
     FILE *fp;
-    int c;
-
-    // open the current input file
+    char c;
     printf(__FILE__);
-    fp = fopen("F:\\LearnC\\FILE\\COuntCharacters.c","r");
+    fp = fopen(__FILE__,"r");
 
     do {
          c = getc(fp);   // read character

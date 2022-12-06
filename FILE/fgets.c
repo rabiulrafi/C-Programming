@@ -1,13 +1,11 @@
-#include<stdio.h>  
-#include<conio.h>  
-void main(){  
-FILE *fp;  
-char text[300];  
-
-  
-fp=fopen("mydoc.txt","r");  
-printf("%s",fgets(text,200,fp));  
-  
-fclose(fp);  
-getch();  
-} 
+    #include <stdio.h>
+    void main()
+    {
+        int n = 2, m = 2;
+        if (n > 2){
+            if (m > 2)
+                printf("True");
+        }
+        else
+            printf("False");
+    }
